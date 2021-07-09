@@ -6,8 +6,8 @@
   "author": "mac",
   "main": "index.js",
   "scripts": {
-    "prettier": "prettier --write components/*/**.tsx library/*.ts pages/*.tsx pages/**/*.tsx pages/api/*.ts styles/*.ts",
-    "lint": "eslint components/*/**.tsx library/*.ts pages/*.tsx pages/**/*.tsx pages/api/*.ts styles/*.ts --fix"
+    "prettier": "prettier --write *.ts */*.ts",
+    "lint": "eslint *.ts */*.ts"
   },
   "prettier": {
     "arrowParens": "avoid",
