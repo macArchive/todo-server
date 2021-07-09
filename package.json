@@ -6,8 +6,8 @@
   "author": "mac",
   "main": "index.js",
   "scripts": {
-    "prettier": "prettier --write *.ts */*.ts",
-    "lint": "eslint *.ts */*.ts"
+    "prettier": "prettier --write *.ts",
+    "lint": "eslint *.ts"
   },
   "prettier": {
     "arrowParens": "avoid",
